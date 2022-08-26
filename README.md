@@ -2,7 +2,7 @@
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-This is 
+This progressive web application is a simple text editor that can be installed on a user's device and used with or without connection to the internet.
 
 Deployed Application: 
 
@@ -36,3 +36,5 @@ This project is licensed under the MIT license.
 
 ## Credits
 Boot Camp Module 19
+
+Starter code cloned from [https://github.com/coding-boot-camp/cautious-meme](https://github.com/coding-boot-camp/cautious-meme).
