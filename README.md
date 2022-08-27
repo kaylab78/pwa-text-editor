@@ -20,6 +20,7 @@ Deployed Application:
 
 
 ## Technologies
+- [Babel]()
 - [Concurrently](https://www.npmjs.com/package/concurrently)
 - [Express.js]()
 - [HTMLWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin/)
