@@ -21,10 +21,10 @@ export const putDb = async (content) => {
   const jateDb = await openDB('jate', 1);
 
   // New transaction specifying store and data privileges
-  const tx = jateDb.transaction('content', 'readwrite');
+  const tx = jateDb.transaction('jate', 'readwrite');
 
   // Open object store
-  const store = tx.objectStore('content');
+  const store = tx.objectStore('jate');
 
   // Update content. 
   const request = store.put({ content: content });
@@ -42,10 +42,10 @@ export const getDb = async () => {
   const jateDb = await openDB('jate', 1);
 
   // New transaction specifying the store and data privileges
-  const tx = jateDb.transaction('content', 'readonly');
+  const tx = jateDb.transaction('jate', 'readonly');
 
   // Open object store
-  const store = tx.objectStore('content');
+  const store = tx.objectStore('jate');
 
   // Get all data in the database
   const request = store.getAll();
