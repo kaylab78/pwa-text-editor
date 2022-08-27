@@ -1,20 +1,7 @@
 import { Workbox } from 'workbox-window';
 import Editor from './editor';
 import './database';
-
-import { getDb, putDb } from './database';
-
-// Import CSS
 import '../css/style.css';
-
-// Import image and add on load
-import Logo from '../images/logo.png';
-
-window.addEventListener('load', function() {
-  // getDb();
-  // putDb("New content right here");
-  document.getElementById('logo').src = Logo;
-});
 
 const main = document.querySelector('#main');
 main.innerHTML = '';

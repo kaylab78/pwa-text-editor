@@ -43,4 +43,8 @@ This project is licensed under the MIT license.
 ## Credits
 Boot Camp Module 19
 
+Chrome Developers. (2021, April 29). *workbox-recipes.* Workbox. [https://developer.chrome.com/docs/workbox/modules/workbox-recipes/](https://developer.chrome.com/docs/workbox/modules/workbox-recipes/)
+
+Chrome Developers. (2020, June 24). *workbox-cacheable-response.* Workbox. [https://developer.chrome.com/docs/workbox/modules/workbox-cacheable-response/](https://developer.chrome.com/docs/workbox/modules/workbox-cacheable-response/)
+
 Starter code cloned from [https://github.com/coding-boot-camp/cautious-meme](https://github.com/coding-boot-camp/cautious-meme).
