@@ -2,6 +2,8 @@ import { Workbox } from 'workbox-window';
 import Editor from './editor';
 import './database';
 
+import { getDB } from './database';
+
 // Import CSS
 import '../css/style.css';
 
@@ -9,6 +11,7 @@ import '../css/style.css';
 import Logo from '../images/logo.png';
 
 window.addEventListener('load', function() {
+  getDB();
   document.getElementById('logo').src = Logo;
 });
 
