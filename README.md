@@ -20,9 +20,12 @@ Deployed Application:
 
 
 ## Technologies
+- [Concurrently](https://www.npmjs.com/package/concurrently)
+- [Express.js]()
 - [HTMLWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin/)
 - [idb](https://www.npmjs.com/package/idb)
 - [Node.js](https://nodejs.org/en/)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
 - [webpack](https://webpack.js.org/)
 - [WebpackPwaManifest]()
 - [Workbox](https://developer.chrome.com/docs/workbox/)
