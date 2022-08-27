@@ -22,6 +22,7 @@ Deployed Application:
 ## Technologies
 - [Babel]()
 - [CodeMirror](https://codemirror.net/)
+- [CodeMirror Themes](https://www.npmjs.com/package/code-mirror-themes)
 - [Concurrently](https://www.npmjs.com/package/concurrently)
 - [Express.js]()
 - [HTMLWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin/)

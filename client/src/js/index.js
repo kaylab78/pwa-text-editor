@@ -7,6 +7,7 @@ import '../css/style.css';
 
 // Import image and add on load
 import Logo from '../images/logo.png';
+
 window.addEventListener('load', function() {
   document.getElementById('logo').src = Logo;
 });

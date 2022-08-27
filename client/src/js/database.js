@@ -1,4 +1,5 @@
 import { openDB } from 'idb';
+// import 'regnerator-runtime/runtime';
 
 const initdb = async () =>
   openDB('jate', 1, {
