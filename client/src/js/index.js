@@ -1,9 +1,11 @@
 import { Workbox } from 'workbox-window';
 import Editor from './editor';
 import './database';
+
+// Import CSS
 import '../css/style.css';
 
-// Import image
+// Import image and add on load
 import Logo from '../images/logo.png';
 window.addEventListener('load', function() {
   document.getElementById('logo').src = Logo;
