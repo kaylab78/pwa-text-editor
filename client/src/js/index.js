@@ -11,8 +11,8 @@ import '../css/style.css';
 import Logo from '../images/logo.png';
 
 window.addEventListener('load', function() {
-  getDb();
-  putDb("New content right here");
+  // getDb();
+  // putDb("New content right here");
   document.getElementById('logo').src = Logo;
 });
 

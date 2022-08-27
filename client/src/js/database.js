@@ -13,8 +13,9 @@ const initdb = async () =>
     },
   });
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
+// TODO: Add logic to a method that accepts some content and adds it to the database - Done
 export const putDb = async (content) => {
+  console.log('PUT to the database.')
   
   // Connect to database and version
   const jateDb = await openDB('jate', 1);
@@ -25,16 +26,17 @@ export const putDb = async (content) => {
   // Open object store
   const store = tx.objectStore('content');
 
-  // Add content
-  const request = store.add({ content: content });
+  // Update content. 
+  const request = store.put({ content: content });
 
   // Confirmation of request
   const result = await request;
   console.log('Data saved to database.', result);
 };
 
-// TODO: Add logic for a method that gets all the content from the database
+// TODO: Add logic for a method that gets all the content from the database - Done
 export const getDb = async () => {
+  console.log('GET data from database.')
   
   // Connect to IndexedDB databse and the version to use
   const jateDb = await openDB('jate', 1);
