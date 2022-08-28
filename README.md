@@ -30,6 +30,7 @@ To use the deployed application, visit [this link](https://agile-earth-33819.her
 Once the user opens the app, they can use it as a text editor. When the user closes the app and then opens it at a later time, their content from the last time they were in the app will show up.
 
 The app can also be installed to the local device. Click the "Install!" button in the top left corner, and then open the app.
+![The screen shows a black screen with a blue header that says, "Just Another Text Editor."](/screenshot-1.gif)
 
 ## Technologies
 - [Babel](https://www.npmjs.com/package/babel-loader)
