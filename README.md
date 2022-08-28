@@ -4,7 +4,7 @@
 ## Description
 This progressive web application is a simple text editor that can be installed on a user's device and used with or without connection to the internet.
 
-Deployed Application: 
+Deployed Application: [https://agile-earth-33819.herokuapp.com/](https://agile-earth-33819.herokuapp.com/)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -23,11 +23,13 @@ This project requires several npm packages. Once the repository is cloned, use `
 Next, navigate to the `client` directory and use `npm install` to install the packages required for the client. Then navigate to the `server` directory and use `npm install` to install the packages required for the server.
 
 ## Usage
-To use the application from the command-line, type npm start in the root directory. A new directory called `dist` will be compiled. Open `dist/index.html` with the live server.
+To use the application from the command-line, type npm start in the root directory. A new directory called `dist` will be compiled. Navigate to http://localhost:3001.
 
-To use the deployed application, visit [this link](). 
+To use the deployed application, visit [this link](https://agile-earth-33819.herokuapp.com/). 
 
+Once the user opens the app, they can use it as a text editor. When the user closes the app and then opens it at a later time, their content from the last time they were in the app will show up.
 
+The app can also be installed to the local device. Click the "Install!" button in the top left corner, and then open the app.
 
 ## Technologies
 - [Babel](https://www.npmjs.com/package/babel-loader)
